@@ -1,0 +1,346 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+    
+}
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    display: flex;
+    margin-top: -10px;
+    
+    
+}
+.cin h1 {
+    
+    margin: 0;
+    font-size: 80px;
+    color: #111111;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(75, 75, 75, 0.1);
+}
+.cin p {
+    
+    font-size: 15px;
+    color: #666;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: 10px;
+    text-shadow: #535353 5px 5px 8px;
+}
+.nav {
+    
+    width: 45%;
+    text-align: center;
+    margin-left: 50px;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 70px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.nav ul a {
+    text-decoration: none;
+    color: #505050;
+    
+    font-size: 20px;
+    
+}
+.nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    letter-spacing: 5px;
+    
+    
+}
+.nav ul li:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.2s ease;
+    box-shadow: #cecece 0px 0px 10px;
+}
+
+.searchbox {
+    background-color: #f0f0f0;
+    width: 16%;
+    height: 40px;
+    margin-top: 83px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.searchbox i {
+    color: #494949;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+.searchbox i:hover {
+    color: #ff3300;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.searchbox:hover {
+    background-color: #ffffff;
+    transition: background-color 0.5s ease;
+    box-shadow: #cecece 0px 0px 10px;
+}
+.searchbox input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.searchbox input::placeholder {
+    color: #ff3300;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+
+.ln{
+    width: 95%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-top: -9px;
+    margin-left: 48px;
+}
+.iconarea {
+    position: fixed;
+    left: 40px;
+    top: 47%;
+    width: 40px;
+    transform: scale(1.2);
+    background-color: #ffffff;
+    padding: 5px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(75, 75, 75, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+
+}
+.iconarea a {
+    text-decoration: none;
+    
+    font-size: 20px;
+    margin: 10px 0;
+    
+    
+    
+}
+.iconarea a i {
+    color: #505050;
+    transition: color 0.3s ease;
+}
+.iconarea a:hover .fa-facebook-f {
+    color: #0066ff;
+}
+.iconarea a:hover .fa-instagram {
+    color: #ca01fc;
+
+}
+.iconarea a:hover .fa-facebook-messenger {
+    color: #00acee;
+}
+.iconarea a:hover .fa-whatsapp {
+    color: #00cf23;
+}
+
+.choice {
+    
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+
+}
+.choice a {
+    text-decoration: none;
+    color: #808080;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    
+   
+    margin-top: -20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    
+}
+.choice ul {
+    list-style-type: none;
+    
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.choice a i {
+    margin-right: 5px;
+    color: #808080;
+}
+
+section {
+    width: 75%;
+    
+    
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+ 
+.images {
+    width: 75%;
+    height: 1000px;
+    display: block;
+    margin-top: 0;
+    
+}
+.imagec {
+  display: block;
+
+  width: auto;
+  height: 700PX;
+    margin: 0px auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  text-align: center;
+    box-shadow: 0px 0px 10px rgba(75, 75, 75, 0.3);
+}
+
+.img {
+  width: 100%;
+  
+  height: 100%;
+  border-radius: 0px;
+}
+.comments {
+    width: 100%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.toggle-btn {
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  
+}
+.toggle-btn:hover{
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+    box-shadow: #b4b4b4 0px 0px 10px;
+    transition: 0.2s ease-in-out;
+    color: #b8b8b8cc;
+}
+
+.toggle-btn input {
+  display: none;
+}
+
+.toggle-btn span {
+  display: inline-block;
+  padding: 8px 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(206, 206, 206);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.toggle-btn input:checked + span {
+  background-color: #ff3300;
+    color: #ffffff;}
+
+.comments p {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;}
+
+.rate {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  display: inline-flex;
+}
+   
+
+
+.rate input {
+  display: none;
+}
+
+.rate label {
+  
+  color: #a0a0a0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  
+}
+
+.rate input:checked ~ label i,
+.rate label:hover ~ label i,
+.rate label:hover i {
+  color: gold;
+  transition: 0.2s ease-out ;
+}
+
+
